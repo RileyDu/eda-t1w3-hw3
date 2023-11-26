@@ -92,4 +92,6 @@ while (i < totalParts) {
     boxes++;
   }
 }
-console.log(`There was ${boxes} boxes filled with a leftover of ${i % partsPerBox} parts`);
+console.log(
+  `There was ${boxes} boxes filled with a leftover of ${i % partsPerBox} parts`
+);
